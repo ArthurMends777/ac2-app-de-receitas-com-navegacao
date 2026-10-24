@@ -21,9 +21,9 @@ export default function Detalhes() {
 
   return (
     <View style={styles.container}>
-      <Image source={{ uri: receita.strMealThumb }} style={styles.imagem} />
-      <Text style={styles.nome}>{receita.strMeal}</Text>
-      <Text style={styles.instrucoes}>{receita.strInstructions}</Text>
+      <Image source={{ uri: receita?.strMealThumb }} style={styles.imagem} />
+      <Text style={styles.nome}>{receita?.strMeal}</Text>
+      <Text style={styles.instrucoes}>{receita?.strInstructions}</Text>
     </View>
   );
 }
